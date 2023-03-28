@@ -58,7 +58,6 @@
 }
 
 .div2{
-    display: flex;
     background-color: #373a4d;
     padding: 2rem 4rem;
 }
@@ -114,4 +113,13 @@
     color: white;
     margin-right: 20px;
     font-size: 30px;
+}
+
+.copy{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#737491;
 }
