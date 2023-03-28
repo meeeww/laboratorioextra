@@ -22,3 +22,6 @@ https://around.createx.studio/demo-product-software.html
     --gradiente_1:#766df4;
     --gradiente_2:#6a9af3;
 }
+
+# Progreso
+# TERMINADO
