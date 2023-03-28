@@ -1,9 +1,16 @@
-*{
-    background-color: #737ef4;
+:root{ 
+    --color_principal:#766df4;
+    --color_secundario:#737491;
+    --color_boton:#15c994;
+    --background_color_1:#fefefe;
+    --backgroud_color_2:#37384e;
+    --gradiente_1:#766df4;
+    --gradiente_2:#6a9af3;
 }
 
 .div1{
     display: flex;
+    background-color: #737ef4;
 }
 
 .derecha{
@@ -53,8 +60,58 @@
 .div2{
     display: flex;
     background-color: #373a4d;
+    padding: 2rem 4rem;
 }
 
-.footerizquierda{
-    b
+.div_footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.contenedorizq{
+    display: flex;
+}
+
+
+.contenedorcentral{
+    display: flex;
+    align-items: center;
+}
+
+
+.imagenizq{
+    height: 80px;
+    width: 80px;
+}
+
+.textocolor{
+    color: white;
+
+}
+
+.textoemail{
+    color: #737491;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.textotelefono{
+    color: #737491;
+    margin-left: 10px;
+}
+
+#icono{
+    color:#737491;
+}
+
+.titulocen{
+    color: white;
+    font-size: 20px;
+}
+
+#iconoder{
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
 }
