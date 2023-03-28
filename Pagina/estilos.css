@@ -1,4 +1,12 @@
-:root{ 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+:root{
     --color_principal:#766df4;
     --color_secundario:#737491;
     --color_boton:#15c994;
@@ -24,29 +32,33 @@
 
 .titulo{
     color: white;
-
+    padding: 0px 1px 10px;
 }
 
 .texto{
     color: white;
-
 }
 
 .email{
     background-color: white;
     border-radius: 7px;
     border-color: white;
+    border: none;
     height: 30px;
     width: 300px;
 }
 
 .boton{
     border-radius: 7px;
-    height: 37px;
+    height: 32px;
     width: 150px;
     color: white;
     background-color: #14c994;
-    border-color: #14c994;
+    border: none;
+}
+
+.cajatexto{
+    padding: 10px 1px 20px;
 }
 
 .cajaformulario{
@@ -70,23 +82,51 @@
 
 .contenedorizq{
     display: flex;
+    align-items: center;
 }
 
 
 .contenedorcentral{
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
+.contenedor2izq{
+    margin-top: 20px;
+}
 
 .imagenizq{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 200px;
 }
 
 .textocolor{
     color: white;
+}
 
+.div_footerCen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconos{
+    margin-top: 20px;
+}
+
+.div_footerDer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textocolorgris{
+    color: #737491;
+}
+
+#titulo1{
+    font-size: 20px;
 }
 
 .textoemail{
@@ -122,4 +162,8 @@
     align-items: center;
     justify-content: center;
     color:#737491;
+}
+
+.textocopy{
+    margin-top: 50px;
 }
