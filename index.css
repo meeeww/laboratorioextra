@@ -66,6 +66,7 @@ p {
     margin-left: 2rem;
     font-weight: 600;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .caja {
@@ -115,7 +116,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 10%;
     color: var(--color_secundario);
 }
 
