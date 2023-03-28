@@ -9,4 +9,4 @@
     - Iconos: puedes utilizar cualquier página que proporcione estos recursos
 
 # Web
-https://around.createx.studio/demo-product-software.html 
+https://around.createx.studio/demo-product-software.html
