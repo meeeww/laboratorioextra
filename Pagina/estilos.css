@@ -1,0 +1,60 @@
+*{
+    background-color: #737ef4;
+}
+
+.div1{
+    display: flex;
+}
+
+.derecha{
+    flex:1;
+    padding: 20px;
+}
+
+.izquierda{
+    flex:1;
+}
+
+.titulo{
+    color: white;
+
+}
+
+.texto{
+    color: white;
+
+}
+
+.email{
+    background-color: white;
+    border-radius: 7px;
+    border-color: white;
+    height: 30px;
+    width: 300px;
+}
+
+.boton{
+    border-radius: 7px;
+    height: 37px;
+    width: 150px;
+    color: white;
+    background-color: #14c994;
+    border-color: #14c994;
+}
+
+.cajaformulario{
+    display: flex;
+}
+
+.caja{
+    flex:1;
+}
+
+.div2{
+    display: flex;
+    background-color: #373a4d;
+}
+
+.footerizquierda{
+    b
+}
