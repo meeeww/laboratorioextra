@@ -352,7 +352,7 @@ input:checked+.slide:before {
     flex:1;
 }
 
-.titulo{
+.titulofooter{
     color: white;
     padding: 0px 1px 10px;
 }
