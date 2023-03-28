@@ -25,3 +25,7 @@ https://around.createx.studio/demo-product-software.html
 
 # Progreso
 # TERMINADO
+
+Omar (Rakions) -> Header
+Zas (meeeww) -> Main
+Diego (diegog) -> Footer
