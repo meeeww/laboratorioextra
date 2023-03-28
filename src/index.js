@@ -106,7 +106,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         //--IZQUIERDA--\\
         const divIzquierda = document.createElement("div");
-        divIzquierda.className = "izquierda"
+        divIzquierda.className = "izquierdaPrecios"
 
         //titulo
         let h1 = document.createElement("h1");
@@ -122,7 +122,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         //--CENTRO--\\
         const divCentro = document.createElement("div");
-        divCentro.className = "medio"
+        divCentro.className = "medioPrecios"
         divCentro.id = i
 
         //divisa
@@ -151,7 +151,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         //--DERECHA--\\
         const divDerecha = document.createElement("div");
-        divDerecha.className = "derecha"
+        divDerecha.className = "derechaPrecios"
 
         //features
         for (let x = 0; x < precios[i]["features"].length; x++) {

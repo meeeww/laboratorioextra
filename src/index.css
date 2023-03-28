@@ -192,7 +192,7 @@ header a:hover{
     cursor: pointer;
 }
 
-.costes_caja {
+.cajaPrecios {
     display: flex;
     flex-direction: column;
     background-color: var(--background_color_1);
@@ -222,7 +222,7 @@ header a:hover{
     border-top: 1px solid rgba(199, 199, 199, 0.4);
 }
 
-.div1_izquierda {
+.izquierdaPrecios {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -230,12 +230,12 @@ header a:hover{
     width: 30%;
 }
 
-.izquidiv1_izquierdaerda p {
+.izquierdaPrecios p {
     margin-top: 10px;
     color: var(--color_secundario);
 }
 
-.medio {
+.medioPrecios {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +243,7 @@ header a:hover{
     color: var(--color_secundario);
 }
 
-.div1_derecha {
+.derechaPrecios {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,12 +252,12 @@ header a:hover{
     color: var(--color_secundario);
 }
 
-.div1_derecha i {
+.derechaPrecios i {
     padding-right: 10px;
     color: var(--color_principal);
 }
 
-.div1_derecha p {
+.derechaPrecios p {
     margin-top: 1rem;
 }
 
@@ -352,7 +352,7 @@ input:checked+.slide:before {
     flex:1;
 }
 
-.titulo{
+.titulofooter{
     color: white;
     padding: 0px 1px 10px;
 }
