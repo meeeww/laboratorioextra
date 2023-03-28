@@ -5,15 +5,33 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+:root {
+    --color_principal: #766df4;
+    --color_secundario: #737491;
+    --color_boton: #15c994;
+    --background_color_1: #fefefe;
+    --backgroud_color_2: #37384e;
+    --gradiente_1: #766df4;
+    --gradiente_2: #6a9af3;
+}
+
 .main {
-    background-color: #f7f7fc;
+    background-color: var(--background_color_1);
 }
 
 .pricing {
-    background: rgb(118, 109, 244);
-    background: linear-gradient(90deg, rgba(118, 109, 244, 1) 0%, rgba(106, 154, 243, 1) 100%);
+    background: var(--gradiente_1);
+    background: linear-gradient(90deg, var(--gradiente_1) 0%, var(--gradiente_2) 100%);
     width: 100%;
-    height: 5rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +40,7 @@ body {
 .pricing h1 {
     color: #ffffff;
     font-weight: 500;
-    font-size: larger;
+    font-size: 2rem;
 }
 
 .titulo {
@@ -33,19 +51,165 @@ body {
 }
 
 .titulo h1 {
-    color: #737491;
-    font-weight: 600;
-    font-size: larger;
+    color: var(--color_secundario);
+    font-weight: 700;
+    font-size: 1.7rem;
 }
 
 .titulo button {
-    background-color: #15c994;
+    background-color: var(--color_boton);
     color: #ffffff;
     border-color: transparent;
-    border-radius: 0.5rem;
-    height: 1.7rem;
-    width: 7rem;
+    border-radius: 0.8rem;
+    height: 2.7rem;
+    width: 9.5rem;
     margin-left: 2rem;
-    font-weight: 100;
-    font-size: 0.6rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background_color_1);
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin-inline: 10.5rem;
+    margin-block: 3rem;
+    padding-block: 1.5rem;
+}
+
+.monthlyannual {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.opcion {
+    margin-inline: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 3rem;
+}
+
+#separador {
+    border-top: 1px solid rgba(199, 199, 199, 0.4);
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.izquierda p {
+    margin-top: 10px;
+    color: var(--color_secundario);
+}
+
+.medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    color: var(--color_secundario);
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    color: var(--color_secundario);
+}
+
+.derecha i {
+    padding-right: 10px;
+    color: var(--color_principal);
+}
+
+.derecha p {
+    margin-top: 1rem;
+}
+
+.precio {
+    color: var(--color_principal);
+    font-weight: 400;
+    font-size: 5rem;
+    margin-right: 5%;
+}
+
+.dolar {
+    font-weight: 400;
+    font-size: 3rem;
+    margin-right: 5%;
+}
+
+.pormes {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/*switch*/
+.switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 4rem;
+    height: 2rem;
+    margin-inline: 1rem;
+}
+
+.switchBtn input {
+    display: none;
+}
+
+.slide {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color_principal);
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 8px;
+    color: #fff;
+}
+
+.slide:before {
+    position: absolute;
+    content: "";
+    height: 1.62rem;
+    width: 1.62rem;
+    left: 2rem;
+    bottom: 0.2rem;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slide {
+    background-color: rgb(211, 211, 211);
+    padding-left: 2rem;
+}
+
+input:checked+.slide:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -1.2rem;
+}
+
+.slide.round {
+    border-radius: 2rem;
+}
+
+.slide.round:before {
+    border-radius: 50%;
 }
