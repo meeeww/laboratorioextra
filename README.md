@@ -9,4 +9,19 @@
     - Iconos: puedes utilizar cualquier página que proporcione estos recursos
 
 # Web
-https://around.createx.studio/demo-product-software.html
+https://around.createx.studio/demo-product-software.html 
+
+# Root
+
+:root{
+    --color_principal:#766df4;
+    --color_secundario:#737491;
+    --color_boton:#15c994;
+    --background_color_1:#fefefe;
+    --backgroud_color_2:#37384e;
+    --gradiente_1:#766df4;
+    --gradiente_2:#6a9af3;
+}
+
+# Progreso
+# TERMINADO
