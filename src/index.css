@@ -343,12 +343,12 @@ input:checked+.slide:before {
     background-color: #737ef4;
 }
 
-.derecha{
+.div1_derecha{
     flex:1;
     padding: 20px;
 }
 
-.izquierda{
+.div1_izquierda{
     flex:1;
 }
 
@@ -377,17 +377,18 @@ input:checked+.slide:before {
     color: white;
     background-color: #14c994;
     border: none;
+    margin-left: 2rem;
 }
 
-.cajatexto{
+.div1_cajatexto{
     padding: 10px 1px 20px;
 }
 
-.cajaformulario{
+.div1_cajaformulario{
     display: flex;
 }
 
-.caja{
+.div1_caja{
     flex:1;
 }
 
