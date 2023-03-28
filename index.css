@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    background-color: #f7f7fc;
+}
+
+.pricing {
+    background: rgb(118, 109, 244);
+    background: linear-gradient(90deg, rgba(118, 109, 244, 1) 0%, rgba(106, 154, 243, 1) 100%);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.titulo h1 {
+    color: #737491;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.titulo button {
+    background-color: #15c994;
+    color: #ffffff;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    height: 1.7rem;
+    width: 7rem;
+    margin-left: 2rem;
+}
