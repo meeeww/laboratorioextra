@@ -337,3 +337,155 @@ input:checked+.slide:before {
 .slide.round:before {
     border-radius: 50%;
 }
+
+.div1{
+    display: flex;
+    background-color: #737ef4;
+}
+
+.derecha{
+    flex:1;
+    padding: 20px;
+}
+
+.izquierda{
+    flex:1;
+}
+
+.titulo{
+    color: white;
+    padding: 0px 1px 10px;
+}
+
+.texto{
+    color: white;
+}
+
+.email{
+    background-color: white;
+    border-radius: 7px;
+    border-color: white;
+    border: none;
+    height: 30px;
+    width: 300px;
+}
+
+.boton{
+    border-radius: 7px;
+    height: 32px;
+    width: 150px;
+    color: white;
+    background-color: #14c994;
+    border: none;
+}
+
+.cajatexto{
+    padding: 10px 1px 20px;
+}
+
+.cajaformulario{
+    display: flex;
+}
+
+.caja{
+    flex:1;
+}
+
+.div2{
+    background-color: #373a4d;
+    padding: 2rem 4rem;
+}
+
+.div_footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.contenedorizq{
+    display: flex;
+    align-items: center;
+}
+
+
+.contenedorcentral{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contenedor2izq{
+    margin-top: 20px;
+}
+
+.imagenizq{
+    height: 70px;
+    width: 200px;
+}
+
+.textocolor{
+    color: white;
+}
+
+.div_footerCen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconos{
+    margin-top: 20px;
+}
+
+.div_footerDer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textocolorgris{
+    color: #737491;
+}
+
+#titulo1{
+    font-size: 20px;
+}
+
+.textoemail{
+    color: #737491;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.textotelefono{
+    color: #737491;
+    margin-left: 10px;
+}
+
+#icono{
+    color:#737491;
+}
+
+.titulocen{
+    color: white;
+    font-size: 20px;
+}
+
+#iconoder{
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.copy{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#737491;
+}
+
+.textocopy{
+    margin-top: 50px;
+}
