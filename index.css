@@ -69,7 +69,7 @@ p {
     cursor: pointer;
 }
 
-.caja {
+.costes_caja {
     display: flex;
     flex-direction: column;
     background-color: var(--background_color_1);
